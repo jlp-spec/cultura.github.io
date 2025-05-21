@@ -16,73 +16,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Музыкальный плейлист</title>
+    <title>Плейлист Яндекс.Музыки</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            text-align: center;
-        }
-        
-        .playlist-container {
-            margin: 30px 0;
-            padding: 20px;
-            background-color: #f5f5f5;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        
         .playlist-button {
             display: inline-block;
             padding: 12px 24px;
-            background-color: #FFCC00; /* Яндекс.Музыка цвет */
+            background-color: #ffcc00;
             color: #000;
             text-decoration: none;
-            border-radius: 25px;
+            border-radius: 4px;
             font-weight: bold;
-            transition: all 0.3s ease;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s;
         }
         
         .playlist-button:hover {
-            background-color: #FFD633;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            background-color: #ffdb4d;
         }
         
-        .playlist-button:active {
-            transform: translateY(0);
-            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        .container {
+            text-align: center;
+            margin-top: 50px;
         }
         
-        .playlist-icon {
-            vertical-align: middle;
-            margin-right: 8px;
-            width: 20px;
-            height: 20px;
+        .description {
+            margin-bottom: 20px;
+            font-family: Arial, sans-serif;
         }
     </style>
 </head>
 <body>
-    <div class="playlist-container">
-        <h2>Музыкальный плейлист</h2>
-        <p>Нажмите на кнопку ниже, чтобы открыть плейлист в Яндекс.Музыке</p>
-        
-        <a href="https://music.yandex.ru/users/ilapetrov34053/playlists/1029" class="playlist-button" target="_blank">
-            <svg class="playlist-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
-            </svg>
-            Открыть плейлист
-        </a>
-        
-        <p style="margin-top: 20px; font-size: 14px; color: #666;">
-            Для прослушивания потребуется аккаунт Яндекс.Музыки
-        </p>
+    <div class="container">
+        <p class="description">Нажмите кнопку ниже, чтобы открыть плейлист в Яндекс.Музыке:</p>
+        <a href="https://music.yandex.ru/users/ilapetrov34053/playlists/1029" target="_blank" class="playlist-button">Открыть плейлист</a>
     </div>
+</body>
+</html>
 </body>
 </html>
         body {
