@@ -12,9 +12,7 @@
             font-family: 'Georgia', serif;
         }
        
-</body>
-</html>
-</body>
+
 </html>
         body {
             background-color: #f5f5f5;
@@ -131,7 +129,47 @@
         <h1>История в культуре</h1>
         <p class="subtitle">Экскурсионные маршруты по литературным произведениям</p>
     </header>
-    
+    <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Плейлист Яндекс.Музыки</title>
+    <style>
+        .playlist-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #ffcc00;
+            color: #000;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s;
+        }
+        
+        .playlist-button:hover {
+            background-color: #ffdb4d;
+        }
+        
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        .description {
+            margin-bottom: 20px;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="description">Нажмите кнопку ниже, чтобы открыть плейлист в Яндекс.Музыке:</p>
+        <a href="https://music.yandex.ru/users/ilapetrov34053/playlists/1029" target="_blank" class="playlist-button">Открыть плейлист</a>
+    </div>
+</body>
+</html>
     <div class="container">
         <div class="routes-grid">
             <!-- Маршрут 1 -->
